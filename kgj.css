@@ -1,0 +1,31 @@
+body {
+  font-family: 'Gentium Basic';
+  font-weight: bold;
+  background: #000;
+  xbackground-size: 100%;
+  xbackground-repeat: no-repeat;
+  color: #fff;
+}
+
+em, b {
+  color: #fadb03;
+  color: #0c0;
+  font-style: normal;
+  font-size: 125%;
+}
+
+a {
+  color: #7cbfe5;
+  color: #34d0e7;
+  text-decoration: none;
+  text-decoration-skip: ink;
+}
+
+a:hover {
+  xbackground: #4e5b6f;
+  text-shadow: 0 0 32px #34d0e7;
+}
+
+.small {
+  font-size: 75%;
+}
