@@ -41,9 +41,10 @@ advocate.
 
 <div><b>"researchers"</b></div>
 <div>undergrads, grad students, faculty, staff, community</div>
-<div><b>"find data"</b></div>
+<div><b>"find&nbsp;data"</b></div>
 <div>google</div>
 <div><a href='http://cugir.library.cornell.edu/'>CUGIR</a></div>
+<div><b>CUGIR</b> = PostGIS + GeoServer + Solr + GeoBlacklight</div>
 <div><a href='http://geolode.org'>geolode.org</a></div>
 <div><b>"access and use data"</b></div>
 <div>QGIS</div>
@@ -89,6 +90,7 @@ advocate.
 <div><img src='image/questions.png'></div>
 
 <div>
+  <b>How we use QGIS</b>
   <ul>
     <li>Exploring data</li>
     <li>Editing data</li>
@@ -101,11 +103,31 @@ advocate.
 
 <div>QGIS starts up fast</div>
 <div>Drag-and-drop files</div>
-<div>Browser - drives and favorites</div>
-<div>Basemaps are fast</div>
-<div>Value tool</div>
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>Data source browser</div>
+  <img src='image/browser.png'>
+</div>
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>QuickMapServices plugin</div>
+  <img src='image/quickmapservices.png'>
+</div>
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>QuickMapServices plugin</div>
+  <img src='image/basemap.png'>
+</div>
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>type 'world' in the coordinates display</div>
+  <img src='image/world.png'>
+</div>
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>Value tool</div>
+  <img src='image/value-tool.gif'>
+</div>
 
-
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>Delimited text</div>
+  <img src='image/delimited-text.png'>
+</div>
 <div>QGIS <span style='color:red'>♥</span> tables
   <notes>and treats them with the respect they deserve</notes>
 </div>
@@ -113,17 +135,24 @@ advocate.
   <div>Do&nbsp;no harm</div>
   <img src='image/hippocrates.png'>
 </div>
-<div>disable "detect field types"</div>
-<div>Refactor fields</div>
-<div>respects Excel data types</div>
 <div class='layout' style='grid-template-rows:10% 90%'>
-  <div>table joins - you don't have to join every field!</div>
-  <img src='image/join.png'>
+  <div>toggle "detect field types"</div>
+  <img src='image/detect-field-types.png'>
 </div>
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>Refactor fields</div>
+  <img src='image/refactor.png'>
+</div>
+<div>QGIS respects Excel (.xlsx) data types</div>
+
 
 
 
 <div><b>Editing Data</b></div>
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>table joins - you don't have to join every field!</div>
+  <img src='image/join.png'>
+</div>
 <div class='layout' style='grid-template-rows:10% 90%'>
   <div>update selected features</div>
   <img src='image/update-selected.png'>
@@ -146,17 +175,31 @@ advocate.
   <div>Simple (yet powerful!) select-by-form</div>
   <img src='image/select-value.png'>
 </div>
-<div></div>
-<div></div>
-
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>Copy and paste to new layer</div>
+  <img src='image/paste.png'>
+</div>
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>Temporary Scratch layers</div>
+  <img src='image/scratch.png'>
+</div>
 
 
 <div><b>Analyzing Data</b></div>
-<div>temporary outputs</div>
-<div>output to gpkg
-  <notes>encouraging you to do the good thing</notes>
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>Processing Toolbox</div>
+  <img src='image/processing-toolbox.gif'>
 </div>
-<div>
+<div><img src='image/overlap.png'></div>
+<div><img src='image/add-xy.png'></div>
+
+<div><b>temporary&nbsp;outputs</b><br>won't clutter up your drive</div>
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>temp layer - make permanent</div>
+  <img src='image/make-permanent.png'>
+</div>
+<div>output to gpkg</div>
+<div><a href='http://switchfromshapefile.org/'>switchfromshapefile.org</a></div>
 
 
 <div><b>Mapping Data</b></div>
@@ -170,32 +213,53 @@ advocate.
   <img src='image/opacity-layer.png'>
 </div>
 <div class='layout' style='grid-template-rows:10% 90%'>
-  <div>Feature-by-feature transparency</div>
+  <div>Feature-by-feature opacity</div>
   <img src='image/opacity-feature.png'>
 </div>
 <div class='layout' style='grid-template-rows:10% 90%'>
   <div>Blending modes - multiply</div>
   <img src='image/opacity-blending.png'>
 </div>
-<div>Dynamic labels</div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>Data-defined overrides</div>
+  <img src='image/data-defined.png'>
+</div>
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>Label Expressions</div>
+  <img src='image/label-expression.png'>
+</div>
+
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>Draw effects...</div>
+  <img src='image/no-shadow.png'>
+</div>
+<div class='layout' style='grid-template-rows:10% 90%'>
+  <div>Drop shadow</div>
+  <img src='image/drop-shadow.png'>
+</div>
 
 
+<div>qgis2web plugin<br><a href='https://kgjenkins.github.io/pompeii/webmap/#18/40.74837/14.48525'>(example)</a></div>
+<div><img src='image/generate-tiles.png'></div>
 
-<div></div>
+<div><b>QGIS is great!</b></div>
 
-<div>Comments or questions?<br>kgj2@cornell.edu<br>@kgjenkins</div>
+<div>Contributing back to the QGIS project</div>
+
+<div>Teaching QGIS workshops</div>
+<div>QGIS support at our GIS Help Desk</div>
+<div><a href='https://qgis.org/en/site/getinvolved/development/bugreporting.html'>Reporting bugs</a><br><a href='https://github.com/qgis/QGIS/issues/26727'>(example)</a></div>
+<div>Fixing bugs<br><a href='https://github.com/qgis/QGIS/pull/31508'>(example)</a></div>
+
+
+<div>New releases every 4 months!</div>
+
+<div><a href='https://www.qgis.org/en/site/getinvolved/development/roadmap.html'>roadmap</a></div>
+<div><a href='https://qgis.org/en/site/forusers/visualchangelog38/'>changelog</a></div>
+
+<div>Longitude<br>Latitude<br>Gratitude</div>
+
 
 </body>
 </html>
